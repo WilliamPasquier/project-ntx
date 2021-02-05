@@ -1,0 +1,30 @@
+    <% include ../../partials/head %>
+    <body class="support">
+        <% include ../../partials/navbar %>
+        <main>
+            <div class="container">
+                <div class="col-12 text-center mt-4">
+                    <h1><%= translation.SUPPORT_ELEMENT.PAGE_TITLE %></h1>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12 text-center">
+                        <h2><%= translation.SUPPORT_ELEMENT.PAGE_SUBTITLE %></h2>
+                    </div>
+                    <div class="col-lg-6 mt-4 text-center wrapper-1">
+                        <a href="/support/cpu">
+                            <img class="sup-image" src="/public/img/support/cpu.png" alt="" height="256" width="256">
+                            <h3 class="mt-5 stretched-link"><%= translation.SUPPORT_ELEMENT.PRODUCT_TYPE_TITLE.CPU %></h3>
+                        </a>
+                    </div>
+                    <div class="col-lg-6 text-center wrapper-2">
+                        <a href="/support/gpu">
+                            <img class="sup-image" src="/public/img/support/gpu.png" alt="" height="288" width="420">
+                            <h3 class="mt-5 stretched-link"><%= translation.SUPPORT_ELEMENT.PRODUCT_TYPE_TITLE.GPU %></h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <% include ../../partials/footer %>
+    </body>
+</html>

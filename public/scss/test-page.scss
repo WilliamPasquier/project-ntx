@@ -1,0 +1,14 @@
+.test-page {
+    .testtext{
+        border:none;
+        background-color: white;
+        font-size: 30px;
+        color: black;
+        text-align: center;
+        &:focus {
+            outline: none;
+            padding: none;
+            box-shadow: none;
+        }
+    }
+}

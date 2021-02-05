@@ -1,0 +1,39 @@
+{
+    "NAVBAR_ELEMENT": {
+        "PRODUCT": "Produkt",
+        "PRODUCT_TYPE": {
+            "CPU": "Prozessor",
+            "GPU": "Grafikkarte"
+        },
+        "NEWS": "Neuheit",
+        "PARTNER": "Partner",
+        "SUPPORT": "Unterstützung",
+        "WHO_ARE_WE": "Wer wir sind",
+        "LANGUAGE": "Sprache",
+        "SHOPPING_CART": "Einkaufswagen"
+    },
+    "TEST_PAGE_TITLE": "Willkommen mein Freund",
+    "TEST_LANG_CHOICE": "Wähle deine Sprache",
+    "TEST_DATE": "Wir sind die {0} und es ist {1}.",
+
+    "SUPPORT_ELEMENT": {
+        "PAGE_TITLE": "Unterstützung",
+        "PAGE_SUBTITLE": "Wählen Sie den Produkttyp",
+        "PRODUCT_TYPE_TITLE": {
+            "CPU": "Prozessor",
+            "GPU": "Grafikkarte"
+        },
+        "FORM_SUPPORT": {
+            "PAGE_TITLE_CPU": "Prozessorunterstützung",
+            "TYPE_OF_CPU": "Prozessortyp",
+            "PAGE_TITLE_GPU": "Grafikkarte unterstützen",
+            "TYPE_OF_GPU": "Grafikkartentyp",
+            "CHOOSE_MODEL": "Wähle ein Modell",
+            "SERIAL_NUMBER": "Ordnungsnummer",
+            "PROBLEM": "Problem",
+            "PROBLEM_EXPLAINATION": "Erklärung des Problems",
+            "CONTACT": "Kontakt",
+            "EMAIL": "email"
+        }
+    } 
+}

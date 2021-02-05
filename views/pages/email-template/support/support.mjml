@@ -1,0 +1,46 @@
+<mjml>
+  <mj-body background-color="#0fa3b9">
+    <mj-section>
+      <mj-column>
+        <mj-image width="150px" src="../../../../public/img/Logo-NTX-blanc.png"></mj-image>
+        <mj-divider border-color="white"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white">
+      <mj-column>
+        <mj-text font-size="35px" color="black" font-family="helvetica" align="center">
+          Ne vous inquiétez pas ! Nous trouverons une solution ensemble.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white">
+      <mj-column>
+        <mj-text font-size="20px" color="black" font-family="helvetica">
+          Modèle :
+        </mj-text>
+        <mj-text font-size="20px" color="black" font-family="helvetica">
+          Numéro de série  :
+        </mj-text>
+        <mj-text font-size="20px" color="black" font-family="helvetica">
+          Problème :
+        </mj-text>
+      </mj-column> 
+    </mj-section>
+    <mj-section background-color="white">
+      <mj-column>  
+        <mj-text font-size="15px" color="black" font-family="helvetica" align="center">
+          L'équipe NTX fera tout son possible pour vous répondre dans les plus bref délais.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>  
+      <mj-column>
+          <mj-divider border-color="white"></mj-divider>
+            <mj-text font-size="15px" color="white" font-family="helvetica" align="center">
+              © 2020 NTX Technologie
+            </mj-text>
+            <mj-image width="100px" src="../public/img/Logo-NTX-blanc.png"></mj-image>
+        </mj-column>
+    </mj-body>
+    </mj-section>
+</mjml>

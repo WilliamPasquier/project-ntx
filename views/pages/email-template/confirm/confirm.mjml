@@ -1,0 +1,88 @@
+<mjml>
+  <mj-body background-color="#343a40">
+    <mj-section>
+      <mj-column>
+        <mj-image width="150px" src="../../../../public/img/Logo-NTX-blanc.png"></mj-image>
+        <mj-divider border-color="white"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white">
+      <mj-column>
+        <mj-text font-size="35px" color="black" font-family="helvetica" align="center">
+          L'équipe NTX vous remercie de votre confiance (et votre argent).
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white">
+      <mj-column>
+        <mj-text font-size="25px" color="black" font-family="helvetica" align="center">
+          Coordonnées
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white">
+      <mj-column>
+        <mj-text font-size="20px" color="black" font-family="helvetica">
+          Nom :
+        </mj-text>
+        <mj-text font-size="20px" color="black" font-family="helvetica">
+          Adresse :
+        </mj-text>
+        <mj-text font-size="20px" color="black" font-family="helvetica">
+          Ville :
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text font-size="20px" color="black" font-family="helvetica">
+          Prénom :
+        </mj-text>
+        <mj-text font-size="20px" color="black" font-family="helvetica">
+          Code postale :
+        </mj-text>
+        <mj-text font-size="20px" color="black" font-family="helvetica">
+          Pays :
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white">
+      <mj-column>
+        <mj-text font-size="25px" color="black" font-family="helvetica" align="center">
+          Récapitulatif d'achat
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white">
+      <mj-column>
+        <mj-text font-size="15px" color="black" font-family="helvetica">
+          Article :
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text font-size="15px" color="black" font-family="helvetica">
+          Prix :
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text font-size="15px" color="black" font-family="helvetica">
+          Quantité : 
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white">
+      <mj-column>
+        <mj-text font-size="20px" color="black" font-family="helvetica" align="center">
+          Total : 
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>  
+      <mj-column>
+          <mj-divider border-color="white"></mj-divider>
+            <mj-text font-size="15px" color="white" font-family="helvetica" align="center">
+              © 2020 NTX Technologie
+            </mj-text>
+            <mj-image width="100px" src="../public/img/Logo-NTX-blanc.png"></mj-image>
+        </mj-column>
+    </mj-body>
+    </mj-section>
+</mjml>

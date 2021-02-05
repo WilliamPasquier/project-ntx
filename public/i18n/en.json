@@ -1,0 +1,39 @@
+{
+    "NAVBAR_ELEMENT": {
+        "PRODUCT": "Product",
+        "PRODUCT_TYPE": {
+            "CPU": "Processor",
+            "GPU": "Graphic card"
+        },
+        "NEWS": "News",
+        "PARTNER": "Partner",
+        "SUPPORT": "Support",
+        "WHO_ARE_WE": "Who are we",
+        "LANGUAGE": "Language",
+        "SHOPPING_CART": "Shopping cart"
+    },
+    "TEST_PAGE_TITLE": "Welcome my friend",
+    "TEST_LANG_CHOICE": "Choose your language",
+    "TEST_DATE": "We are the {0} and it is {1}.",
+
+    "SUPPORT_ELEMENT": {
+        "PAGE_TITLE": "Support",
+        "PAGE_SUBTITLE": "Select the type of product",
+        "PRODUCT_TYPE_TITLE": {
+            "CPU": "Processor",
+            "GPU": "Graphic card"
+        },
+        "FORM_SUPPORT": {
+            "PAGE_TITLE_CPU": "Support processor",
+            "TYPE_OF_CPU": "Type of processor",
+            "PAGE_TITLE_GPU": "Support graphic card",
+            "TYPE_OF_GPU": "Type of graphic card",
+            "CHOOSE_MODEL": "Choose a model",
+            "SERIAL_NUMBER": "Serial number",
+            "PROBLEM": "Problem",
+            "PROBLEM_EXPLAINATION": "Problem explaination",
+            "CONTACT": "Contact",
+            "EMAIL": "email"
+        }
+    } 
+}

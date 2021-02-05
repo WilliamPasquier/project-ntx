@@ -1,0 +1,66 @@
+    <% include ../../partials/head %>
+    <body class="who-are-we">
+        <% include ../../partials/navbar %>
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mt-5 mb-1 text-center">
+                        <h1 class="mb-3">Qui sommes-nous ?</h1>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, non distinctio numquam nam sint nostrum illum molestiae molestias tempore, odio animi ea laborum voluptas rerum repellendus quasi, corporis amet minima.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <img src="../../../img/black.jpg" class="text-center" alt="" width="1920" height="150">
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="half-left col-6">
+                        <h2>Biographie du CEO</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur illo iusto in doloribus eius molestiae culpa accusantium rem ut ipsum consequuntur tempora quidem saepe, voluptatum illum quisquam voluptatibus dolore nostrum!
+                        </p>
+                    </div>
+                    <div class="half-right col-6">
+                        <h2>Valeur de la marque</h2>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur eligendi adipisci suscipit dicta dolore quia dolor, enim delectus dolorum voluptatem iure eum ipsum fugiat officiis, possimus maxime! Autem, tempora molestias!
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="half-left col-6">
+                        <h2>Objectif </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur illo iusto in doloribus eius molestiae culpa accusantium rem ut ipsum consequuntur tempora quidem saepe, voluptatum illum quisquam voluptatibus dolore nostrum!
+                        </p>
+                    </div>
+                    <div class="half-right col-6">
+                        <h2>A propos</h2>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur eligendi adipisci suscipit dicta dolore quia dolor, enim delectus dolorum voluptatem iure eum ipsum fugiat officiis, possimus maxime! Autem, tempora molestias!
+                        </p>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-12">
+                        <h2>Lieux du siège social</h2>
+                    </div>
+                    <div class="col-12 map"></div>
+                    <script>
+                        function initMap() {
+                            var location = {lat: 37.370, lng: -121.967};
+                            var map = new google.maps.Map(document.getElementById("map"), {
+                                zoom: 17,
+                                center: location
+                            });
+                        }
+                    </script>
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqcW-PEVyYEgV-NlyqnGYu4g0bhpd_GdQ&callback=initMap"
+                    type="text/javascript"></script>
+                </div>
+            </div>
+        </main>
+        <% include ../../partials/footer %>
+    </body>
+</html>

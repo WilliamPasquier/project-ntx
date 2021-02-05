@@ -1,0 +1,75 @@
+    <% include ../../../partials/head %>
+    <body class="product-page">
+        <% include ../../../partials/navbar %>
+        <main>
+            <div class="py-5 text-center">
+                <h2>Processeur gamme Howl</h2>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae provident praesentium quos eligendi rem id molestiae dolor quidem modi nulla.<br> Minima dolor aspernatur necessitatibus, praesentium saepe iusto autem dolorum rem.
+                </p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div id="carouselIndicators" class="carousel slide text-center" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <% for(let i=0; i < cpuProducts.length; i++)  { %>
+                            <div class="carousel-item <%= i === 0 ? 'active' : '' %> ml-5">
+                                <div class="row mt-5">
+                                    <div class="col-6 half-left">
+                                        <h2>Un composant pour allier performance et qualité</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vitae autem cumque quod beatae pariatur velit minus incidunt.</p>
+                                        <div class="text-left ml-5">
+                                            <h3 class="mt-4"><%= cpuProducts[i].name%></h3>
+                                            <dl>
+                                                <dt>Fréquence de base</dt>
+                                                <dd><%= cpuProducts[i].baseFrequency %> GHz</dd>
+                                                <dt>Fréquence boost</dt>
+                                                <dd><%= cpuProducts[i].boostFrequency %> GHz</dd>
+                                                <dt>Unlocked</dt>
+                                                <dd><%= cpuProducts[i].isUnlocked ? 'Oui' : 'Non' %></dd>
+                                                <dt>Cache</dt>
+                                                <dd><%= cpuProducts[i].cache%> Mo</dd>
+                                                <dt>Nombre de coeur</dt>
+                                                <dd><%= cpuProducts[i].coreNumber %> Coeurs</dd>
+                                                <dt>Nombre de Threads</dt>
+                                                <dd><%= cpuProducts[i].threadNumber %> Threads</dd>
+                                                <dt>Socket</dt>
+                                                <dd><%= cpuProducts[i].socket %></dd>
+                                                <dt>Consommation</dt>
+                                                <dd><%= cpuProducts[i].consumption %>W</dd>
+                                                <dt>Refroidissement inclus</dt>
+                                                <dd><%= cpuProducts[i].isCoolingIncluded ? 'Oui' : 'Non' %></dd>
+                                                <dt>Fréquence de base</dt>
+                                                <dd><%= cpuProducts[i].use.join(', ') %></dd>
+                                                <dt>Support</dt>
+                                                <dd><%= cpuProducts[i].support %> Bits</dd>
+                                                <dt>Prix</dt>
+                                                <dd><%= cpuProducts[i].price %>CHF TVA Incluse</dd>
+                                            </dl>
+                                            <div class="mt-2 mr-3 product-price">
+                                                <button class="btn btn-primary btn-lg btn-block btn-dark add-to-cart" id="add-to-cart" data-product-id="<%= cpuProducts[i].id %>" data-product-name="<%= cpuProducts[i].name %>" data-product-price="<%= cpuProducts[i].price %>">Ajouter au panier</button>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                    <div class="col-6 half-right img-product">
+                                        <img class="img-product" src="/public/img/product/<%= cpuProducts[i].id %>.png" alt="Howl 3" height="400" width="400">
+                                    </div>
+                                </div>
+                            </div>
+                            <% } %> 
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon-product  mr-5" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon-product ml-5" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <% include ../../../partials/footer %>
+    </body>
+</html>

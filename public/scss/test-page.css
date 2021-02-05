@@ -1,0 +1,15 @@
+.test-page .testtext {
+  border: none;
+  background-color: white;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+
+.test-page .testtext:focus {
+  outline: none;
+  padding: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=test-page.css.map */
