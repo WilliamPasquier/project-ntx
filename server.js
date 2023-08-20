@@ -89,10 +89,10 @@ app.post('/shopping-cart/confirmation', (req, res) => {
         host: 'smtp.gmail.com',
         port: 465,
         secure: true, 
-        auth: {
-            user: 'ntxtechnologie@gmail.com', 
-            pass: 'William17_'
-        },
+        // auth: {
+        //     user: 'ntxtechnologie@gmail.com', 
+        //     pass: 'William17_'
+        // },
         tls:{
             rejectUnauthorized:false
         }
@@ -188,10 +188,10 @@ app.post('/support/send', (req, res) => {
         host: 'smtp.gmail.com',
         port: 465,
         secure: true, 
-        auth: {
-            user: 'ntxtechnologie@gmail.com', 
-            pass: 'William17_'
-        },
+        // auth: {
+        //     user: 'ntxtechnologie@gmail.com', 
+        //     pass: 'William17_'
+        // },
         tls:{
             rejectUnauthorized:false
         }
